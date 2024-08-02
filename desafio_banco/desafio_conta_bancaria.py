@@ -1,4 +1,4 @@
-class ContaBancaria2:
+class ContaBancaria:
     def __init__(self, titular, saldo):
         self._titular = titular
         self._saldo = saldo
@@ -11,6 +11,6 @@ class ContaBancaria2:
     def titular(self):
         return self._titular
 
-conta4 = ContaBancaria2("José", 3000)
-print(f"Titular da conta: {conta4.titular}")
-print(conta4)
+conta = ContaBancaria("José", 3000)
+print(f"Titular da conta: {conta.titular}")
+print(conta)
